@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "xxxxx",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "AZURE_USERNAME": "me@mydomain.onmicrosoft.com"
+  }
+}
