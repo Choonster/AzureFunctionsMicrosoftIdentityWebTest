@@ -47,9 +47,7 @@ namespace azure_functions_ms_identity_web
         {
             services.AddMicrosoftIdentityWebApiAuthentication(Configuration)
                     .EnableTokenAcquisitionToCallDownstreamApi()
-                        //.AddDownstreamWebApi("DownstreamApi", Configuration.GetSection("DownstreamApi"))
-                        .AddInMemoryTokenCaches();
-            // options => Configuration.GetSection(Constants.AzureAd).Bind(options)
+                    .AddInMemoryTokenCaches();
         }
     }
 }
